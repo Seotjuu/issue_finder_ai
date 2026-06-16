@@ -11,8 +11,7 @@
 /backend/saved_models/*.keras
 /backend/saved_models/*.h5
 
-# Dataset
-/backend/dataset/issues.json
+# Dataset (issues.json은 배포에 필요하므로 git에 포함)
 
 # Python cache
 **/__pycache__/
