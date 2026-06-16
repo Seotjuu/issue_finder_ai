@@ -134,7 +134,7 @@ export default function ClassificationTab() {
         <CardHeader>
           <CardTitle>분석 결과</CardTitle>
           <CardDescription>
-            랜덤 포레스트 분류 결과와 TF-IDF 유사도 기반 추천 Issue를 보여줍니다.
+            로지스틱 회귀 분류 결과와 TF-IDF 코사인 유사도 기반 추천 Issue를 보여줍니다.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -158,6 +158,14 @@ export default function ClassificationTab() {
                   <p className="text-sm font-semibold text-emerald-700">
                     신뢰도 {Math.round(result.confidence * 100)}%
                   </p>
+                </div>
+                <div className="mt-3 flex flex-wrap gap-2 border-t border-zinc-200 pt-3">
+                  <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-medium text-emerald-700">
+                    분류 · 로지스틱 회귀
+                  </span>
+                  <span className="inline-flex items-center gap-1 rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs font-medium text-zinc-600">
+                    추천 · TF-IDF 코사인 유사도
+                  </span>
                 </div>
               </section>
 
