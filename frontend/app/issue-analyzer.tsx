@@ -23,10 +23,9 @@ export default function IssueAnalyzer() {
                 { name: "로지스틱 회귀", f1: "87%" },
                 { name: "랜덤 포레스트", f1: "85%" },
                 { name: "그래디언트 부스팅", f1: "85%" },
-                { name: "Complement NB", f1: "82%" },
-                { name: "다층 퍼셉트론", f1: "83%" },
-                { name: "결정트리", f1: "80%" },
-                { name: "LSTM", f1: "81%" },
+                { name: "다층 퍼셉트론", f1: "84%" },
+                { name: "결정트리", f1: "79%" },
+                { name: "LSTM", f1: "82%" },
                 { name: "GRU", f1: "80%" },
               ].map((m) => (
                 <span
@@ -40,7 +39,7 @@ export default function IssueAnalyzer() {
             </div>
 
             <p className="mt-4 text-sm leading-7 text-zinc-500">
-              8가지 머신러닝·딥러닝 알고리즘을 동일 데이터셋으로 학습해 성능을 비교했습니다.
+              7가지 머신러닝·딥러닝 알고리즘을 동일 데이터셋으로 학습해 성능을 비교했습니다.
               실제 분류는 <span className="font-semibold text-zinc-700">로지스틱 회귀</span>로 수행하며,
               유사 Issue는 <span className="font-semibold text-zinc-700">TF-IDF 코사인 유사도</span>로 추천합니다.
             </p>

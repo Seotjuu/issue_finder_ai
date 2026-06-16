@@ -6,7 +6,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 type Category = "bug" | "feature" | "question" | "documentation";
 type ModelName =
   | "LogisticRegression"
-  | "ComplementNB"
   | "DecisionTree"
   | "RandomForest"
   | "GradientBoosting"
@@ -47,7 +46,6 @@ const examplePrompts = [
 
 const modelLabels: Record<ModelName, string> = {
   LogisticRegression: "로지스틱 회귀",
-  ComplementNB: "Complement NB",
   DecisionTree: "결정트리",
   RandomForest: "랜덤 포레스트",
   GradientBoosting: "그래디언트 부스팅",

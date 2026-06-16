@@ -31,7 +31,6 @@ CLUSTER_DATA_PATH = next((p for p in _cluster_candidates if p.exists()), _cluste
 
 ModelName = Literal[
     "LogisticRegression",
-    "ComplementNB",
     "DecisionTree",
     "RandomForest",
     "GradientBoosting",
@@ -135,7 +134,6 @@ def _load_metrics() -> list[ModelMetric]:
         if name
         in (
             "LogisticRegression",
-            "ComplementNB",
             "DecisionTree",
             "RandomForest",
             "GradientBoosting",

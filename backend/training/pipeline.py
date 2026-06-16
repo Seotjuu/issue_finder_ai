@@ -333,14 +333,6 @@ def train_linear_models(
             y_train,
             y_test,
         ),
-        "ComplementNB": train_word_char_classifier(
-            "ComplementNB",
-            ComplementNB(alpha=0.08),
-            x_train,
-            x_test,
-            y_train,
-            y_test,
-        ),
     }
 
 
