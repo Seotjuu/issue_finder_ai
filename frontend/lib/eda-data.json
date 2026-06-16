@@ -1,0 +1,30 @@
+{
+  "repositoryDistribution": [
+    { "name": "facebook/react", "count": 920 },
+    { "name": "vercel/next.js", "count": 1125 },
+    { "name": "reduxjs/redux-toolkit", "count": 540 },
+    { "name": "pmndrs/zustand", "count": 430 },
+    { "name": "react-hook-form", "count": 610 },
+    { "name": "TanStack/query", "count": 625 }
+  ],
+  "labelDistribution": [
+    { "name": "bug", "count": 1810 },
+    { "name": "feature", "count": 1040 },
+    { "name": "question", "count": 780 },
+    { "name": "documentation", "count": 620 }
+  ],
+  "titleLengthDistribution": [
+    { "bucket": "0-20", "count": 360 },
+    { "bucket": "21-40", "count": 1240 },
+    { "bucket": "41-60", "count": 1370 },
+    { "bucket": "61-80", "count": 820 },
+    { "bucket": "81+", "count": 460 }
+  ],
+  "bodyLengthDistribution": [
+    { "bucket": "0-200", "count": 510 },
+    { "bucket": "201-500", "count": 930 },
+    { "bucket": "501-1000", "count": 1165 },
+    { "bucket": "1001-2000", "count": 1010 },
+    { "bucket": "2001+", "count": 635 }
+  ]
+}

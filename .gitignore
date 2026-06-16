@@ -1,7 +1,32 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# Python virtual environments
+/backend/venv
 /venv
 .venv
+
+# Trained ML models (large binary files — keep folder structure via .gitkeep)
+/backend/saved_models/*.pkl
+/backend/saved_models/*.keras
+/backend/saved_models/*.h5
+
+# Dataset
+/backend/dataset/issues.json
+
+# Python cache
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Frontend dependencies
+/frontend/node_modules
+/node_modules
+
+# Next.js build output
+/frontend/.next/
+.next/
+/frontend/out/
+/out/
 
 # dependencies
 /node_modules
