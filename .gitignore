@@ -6,7 +6,8 @@
 .venv
 
 # Trained ML models (large binary files — keep folder structure via .gitkeep)
-/backend/saved_models/*.pkl
+# 주의: Railway 배포를 위해 saved_models는 git에 포함 필요
+# 파일 크기가 100MB 초과 시 Git LFS 사용 필요
 /backend/saved_models/*.keras
 /backend/saved_models/*.h5
 

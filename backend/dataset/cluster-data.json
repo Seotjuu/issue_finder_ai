@@ -1,0 +1,3834 @@
+{
+  "summary": {
+    "totalIssues": 400,
+    "sourceIssues": 5100,
+    "samplePerLabel": 100,
+    "clusterCount": 4,
+    "silhouetteScore": 0.0874,
+    "algorithm": "TF-IDF + TruncatedSVD + KMeans"
+  },
+  "points": [
+    {
+      "id": 0,
+      "x": 0.39472,
+      "y": -0.27412,
+      "clusterId": 3,
+      "category": "bug",
+      "title": "issue: Undesired focus on error field after revalidation while using 'watch'",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 1,
+      "x": 0.2957,
+      "y": 0.09452,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Turbopack does not respect forceSwcTransforms",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 2,
+      "x": 0.21803,
+      "y": -0.00298,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "[DevTools Bug]: Where's the error stack trace?",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 3,
+      "x": 0.28463,
+      "y": -0.13517,
+      "clusterId": 3,
+      "category": "bug",
+      "title": "Form wrapped around multiple Material UI tabs does not retain state",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 4,
+      "x": 0.25779,
+      "y": 0.09741,
+      "clusterId": 0,
+      "category": "bug",
+      "title": "[Compiler Bug]: Unicode characters handled incorrectly",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 5,
+      "x": 0.21728,
+      "y": 0.00969,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "upsertMany with multiple updates with the same id throws away updates",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 6,
+      "x": 0.22107,
+      "y": 0.02602,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "[DevTools Bug] Cannot remove node \"0\" because no matching node was found in the Store.",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 7,
+      "x": 0.22924,
+      "y": -0.08724,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "`fulfillWithValue` creates wrong TS types for `action.payload`",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 8,
+      "x": 0.20805,
+      "y": 0.07431,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Turbopack: `resourceQuery` from import isn't passed to loaders",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 9,
+      "x": 0.21554,
+      "y": -0.02008,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Disabled button click event propagates in IE11",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 10,
+      "x": 0.26837,
+      "y": -0.01968,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "v5: solid-query key and data mismatch with `staleTime` set",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 11,
+      "x": 0.43875,
+      "y": -0.20341,
+      "clusterId": 3,
+      "category": "bug",
+      "title": "Unexpected remove behavior when useForm is shared between a Controller and the useFieldArray hook",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 12,
+      "x": 0.28153,
+      "y": -0.14522,
+      "clusterId": 3,
+      "category": "bug",
+      "title": "Checkbox with default values that are 2-digit numbers cause strange behaviour",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 13,
+      "x": 0.29898,
+      "y": -0.00111,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "useQueries data typed as unknown when using skipToken and TypeScript 5.4.5",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 14,
+      "x": 0.36409,
+      "y": 0.06658,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "node:buffer error",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 15,
+      "x": 0.22995,
+      "y": 0.00845,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "[DevTools Bug]: Cannot read properties of undefined (reading 'displayName') at getWrappedDisplayName",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 16,
+      "x": 0.36746,
+      "y": -0.26945,
+      "clusterId": 3,
+      "category": "bug",
+      "title": "issue: disabled field value is not omitted from the submission data when passing resolver to useForm",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 17,
+      "x": 0.24191,
+      "y": -0.07094,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "react-test-renderer/shallow setState callback is never called",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 18,
+      "x": 0.28154,
+      "y": 0.06663,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "vue-query: Timeline events do not seem to show up in vue.js devtools",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 19,
+      "x": 0.26796,
+      "y": 0.1387,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Double redirect in RSC page when using a loading boundary",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 20,
+      "x": 0.3184,
+      "y": 0.04377,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Including exclamation mark(\" ! \")  in assetPrefix compilation will result in an error",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 21,
+      "x": 0.40956,
+      "y": -0.0877,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "private fields broken in specific case",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 22,
+      "x": 0.15035,
+      "y": -0.05708,
+      "clusterId": 3,
+      "category": "bug",
+      "title": "useFieldArray Controller method cache 6.0.0-rc.3",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 23,
+      "x": 0.37394,
+      "y": 0.00231,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "In the deployment environment  revalidation request does not work  in  ‘/’ page",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 24,
+      "x": 0.22627,
+      "y": 0.11516,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "How to set dynamic assetPrefix with __next_set_public_path__",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 25,
+      "x": 0.30508,
+      "y": 0.06165,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Angular query devtools are included in production builds",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 26,
+      "x": 0.25036,
+      "y": -0.07029,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "`useQueries` + `skipToken` looses `.data` type inference",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 27,
+      "x": 0.2861,
+      "y": 0.10028,
+      "clusterId": 0,
+      "category": "bug",
+      "title": "[Compiler Bug]: Please make a new release above 19.1.0.",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 28,
+      "x": 0.2599,
+      "y": 0.11827,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Heap Memory Allocation Failure in Next.js",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 29,
+      "x": 0.34154,
+      "y": -0.04572,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "[DevTools Bug] Crash when inspecting component using a hook that returns a Proxy",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 30,
+      "x": 0.26996,
+      "y": 0.1223,
+      "clusterId": 0,
+      "category": "bug",
+      "title": "[Compiler Bug]: `eslint-plugin-react-compiler`: npm warn deprecated `@babel/plugin-proposal-private-methods`",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 31,
+      "x": 0.26634,
+      "y": -0.0877,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "IE10 triggers onChange twice when replacing a text selection ",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 32,
+      "x": 0.1251,
+      "y": 0.04147,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "SVG image onLoad event not getting dispatched on IE11",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 33,
+      "x": 0.25151,
+      "y": 0.06764,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Next.js 15 stable codemod has now caused my local font imports to produce hydration errors",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 34,
+      "x": 0.27363,
+      "y": 0.09591,
+      "clusterId": 0,
+      "category": "bug",
+      "title": "[Compiler Bug]: `environment.validateNoSetStateInRender` doesn't throw an error for wrong case",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 35,
+      "x": 0.35771,
+      "y": -0.16897,
+      "clusterId": 3,
+      "category": "bug",
+      "title": "Significant performance drop on Draft.js and RHF 6.13.1",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 36,
+      "x": 0.22273,
+      "y": -0.03567,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Iframe load event not firing in Chrome and Safari when src is 'about:blank'",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 37,
+      "x": 0.29163,
+      "y": 0.06041,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "v4: Using hydrate during an ongoing \"initial\" fetch overwrites the isFetching status",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 38,
+      "x": 0.21262,
+      "y": -0.00359,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "[DevTools Bug]:",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 39,
+      "x": 0.32045,
+      "y": 0.04242,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "NextJs[^14.2.3] build error: Cannot read properties of undefined (reading 'hasOwnProperty')",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 40,
+      "x": 0.2853,
+      "y": -0.07632,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Updating component that makes resource request triggers update warning",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 41,
+      "x": 0.25153,
+      "y": 0.10074,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Warning about missing sharp package with sharp^0.33",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 42,
+      "x": 0.19433,
+      "y": 0.13942,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Calling notFound() in ISR generates static files in app router.",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 43,
+      "x": 0.30237,
+      "y": 0.07972,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Error when initializing Next.js project with TypeScript (v14.2.17 and v15)",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 44,
+      "x": 0.31799,
+      "y": 0.12966,
+      "clusterId": 0,
+      "category": "bug",
+      "title": "[Compiler Bug]: React Compiler does not compile module-level 'use memo' but compiles function-level 'use memo'",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 45,
+      "x": 0.24941,
+      "y": 0.04132,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "`next dev --turbo` error when using `bun.lock` text lockfile",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 46,
+      "x": 0.25297,
+      "y": 0.0787,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Invalidate/Refetch Promises not resolving when paused",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 47,
+      "x": 0.364,
+      "y": -0.24468,
+      "clusterId": 3,
+      "category": "bug",
+      "title": "When I use `shouldUnregister`, validation is not working after you trigger a check for a conditional field.",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 48,
+      "x": 0.258,
+      "y": 0.10508,
+      "clusterId": 0,
+      "category": "bug",
+      "title": "[Compiler Bug]: Increment expression in for-loop loses assignment operation",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 49,
+      "x": 0.30738,
+      "y": -0.02384,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "[DevTools Bug]: TypeError: ie.handlePostCommitFiberRoot is not a function",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 50,
+      "x": 0.28128,
+      "y": -0.0176,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Bug: react-devtools error when KEY and CERT are provided, SSL not usable",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 51,
+      "x": 0.22452,
+      "y": 0.0276,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "react-debug-tools doesn't support legacy context (Component.contextTypes)",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 52,
+      "x": 0.1439,
+      "y": -0.00052,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Error: \"f.hasOwnProperty is not a function\"",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 53,
+      "x": 0.26944,
+      "y": -0.0062,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Turbopack inappropriately compiling recursive function in Azure Maps",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 54,
+      "x": 0.25978,
+      "y": 0.09369,
+      "clusterId": 0,
+      "category": "bug",
+      "title": "[Compiler Bug]: Value returned from `useEffectEvent` is mistakenly treated as a dependency",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 55,
+      "x": 0.32684,
+      "y": -0.05189,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Bug: `useInsertionEffect()` cleanup function does not fire if a component is wrapped in React.lazy",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 56,
+      "x": 0.18343,
+      "y": 0.02652,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "React Devtools won't connect to Application running on iOS Simulator",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 57,
+      "x": 0.24348,
+      "y": -0.04568,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "[Load More / Infinite Scroll example] wrong state of button to load older data",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 58,
+      "x": 0.3423,
+      "y": -0.08278,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Bug: Stale closures with `useEffectEvent`",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 59,
+      "x": 0.11826,
+      "y": 0.01276,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "DevTools: Occasional FOUC when loading DevTools",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 60,
+      "x": 0.24811,
+      "y": 0.10263,
+      "clusterId": 0,
+      "category": "bug",
+      "title": "[Compiler Bug]: `startTransition` shouldn't be required as a dependency for `useCallback`.",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 61,
+      "x": 0.2273,
+      "y": 0.0786,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Domain routing i18n adds default locale to link href's",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 62,
+      "x": 0.22645,
+      "y": -0.03812,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Cant't mount text node components",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 63,
+      "x": 0.27301,
+      "y": 0.00184,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Bug: Normal update between Idle render and a Ping causes Fallback to get stuck",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 64,
+      "x": 0.20449,
+      "y": 0.09221,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Invalid Metadata properties caused by Route Group and Parallel Route at the same Level",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 65,
+      "x": 0.245,
+      "y": 0.10127,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Fast Refresh always triggers a full reload with Chinese characters",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 66,
+      "x": 0.26403,
+      "y": 0.13653,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Buffer polyfill not work on ios lower then 14",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 67,
+      "x": 0.2112,
+      "y": 0.0968,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Next Link component scroll={false} not working as expected",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 68,
+      "x": 0.27776,
+      "y": 0.10704,
+      "clusterId": 0,
+      "category": "bug",
+      "title": "[Compiler Bug]: Moved breakpoint in React Native",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 69,
+      "x": 0.21119,
+      "y": 0.10967,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Server side redirect() throws a Error: NEXT_REDIRECT when navigating clientside",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 70,
+      "x": 0.24658,
+      "y": 0.08704,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "When I use Intercepting Routes, I am unable to redirect from /crud/create to /crud",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 71,
+      "x": 0.32603,
+      "y": -0.2209,
+      "clusterId": 3,
+      "category": "bug",
+      "title": "issue: isValidating gets stuck when using async code in resolver",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 72,
+      "x": 0.20739,
+      "y": 0.01095,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "[DevTools Bug] Cannot remove node \"810\" because no matching node was found in the Store.",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 73,
+      "x": 0.2818,
+      "y": 0.12075,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Module '\"next\" has no exported member \"X\" (eg, 'Image', 'NextConfig').",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 74,
+      "x": 0.25725,
+      "y": -0.14891,
+      "clusterId": 3,
+      "category": "bug",
+      "title": "watch with multiple defaultValues returns undefined",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 75,
+      "x": 0.25063,
+      "y": -0.04648,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Thrown errors are cached and re-thrown rather than retrying",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 76,
+      "x": 0.30918,
+      "y": -0.14156,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Possible incorrect event.target on number inputs in IE9?",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 77,
+      "x": 0.27035,
+      "y": -0.16844,
+      "clusterId": 3,
+      "category": "bug",
+      "title": "Bug with dirty combined with useForm and useFieldArray",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 78,
+      "x": 0.33228,
+      "y": 0.16691,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "[NEXT-3982] ChunkLoadError: Loading chunk app/layout failed. (timeout: http://localhost:3000/_next/static/chunks/app/layout.js)",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 79,
+      "x": 0.20865,
+      "y": 0.11541,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "output standalone breaks serving static from public and everything in _next/*",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 80,
+      "x": 0.31023,
+      "y": -0.02595,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Bug: React test triggers mouseout event for disabled button",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 81,
+      "x": 0.30298,
+      "y": 0.02637,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "API Routes Responses Not Being Gzipped in Next.js App Router #73693",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 82,
+      "x": 0.28397,
+      "y": 0.17783,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Page with ISR (generateStaticParams() and dynamicParams=true) is taking too long for not generated content",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 83,
+      "x": 0.25743,
+      "y": 0.0294,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Compile error `react-refresh/babel` 0.4.0",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 84,
+      "x": 0.24799,
+      "y": 0.1136,
+      "clusterId": 0,
+      "category": "bug",
+      "title": "[Compiler Bug]: “The inferred dependencies did not match...” references Compiler’s internal variables",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 85,
+      "x": 0.273,
+      "y": 0.04001,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "@import on CSS file not working when i use Turbopack",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 86,
+      "x": 0.21393,
+      "y": 0.02933,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "[DevTools Bug] Cannot add node \"1\" because a node with that id is already in the Store.",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 87,
+      "x": 0.47233,
+      "y": 0.06313,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Extended Set Methods (like `union()`) Not Included in Default Polyfills Despite Documentation",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 88,
+      "x": 0.20893,
+      "y": 0.07846,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "All imports must resolve in `next.config` when running `next lint`.  This prevents monorepos from linting before building dependent packages.",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 89,
+      "x": 0.21776,
+      "y": 0.10852,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "[DynamiciO] Connection closed when navigating next/link",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 90,
+      "x": 0.11188,
+      "y": 0.00677,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Error: \"getCommitTree(): Unable to reconstruct tree for root \"1\" and commit 21\"",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 91,
+      "x": 0.28983,
+      "y": 0.0269,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "[DevTools Bug]: Error occurs when installing react-devtools in yarn berry project",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 92,
+      "x": 0.26959,
+      "y": 0.08592,
+      "clusterId": 0,
+      "category": "bug",
+      "title": "[Compiler Bug]: False positive for “impure function during render” inside callback",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 93,
+      "x": 0.23167,
+      "y": 0.04599,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "Error with the latest version of @jridgewell/gen-mapping ( @jridgewell/gen-mapping@0.3.6 ) ",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 94,
+      "x": 0.22152,
+      "y": -0.06206,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "inline style with decimal numbers",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 95,
+      "x": 0.22806,
+      "y": -0.04448,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "User-reported memory leak in createListenerMiddleware",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 96,
+      "x": 0.24969,
+      "y": 0.10333,
+      "clusterId": 0,
+      "category": "bug",
+      "title": "[Compiler Bug]: NaN in dependency list of useMemo always causes re-evaluation",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 97,
+      "x": 0.35163,
+      "y": 0.02003,
+      "clusterId": 0,
+      "category": "bug",
+      "title": "[React 19] React compiler & eslint plugin giving an error to mutating values in refs that are used in JSX",
+      "repo": "facebook/react"
+    },
+    {
+      "id": 98,
+      "x": 0.36618,
+      "y": -0.22072,
+      "clusterId": 3,
+      "category": "bug",
+      "title": "issue: Controller's shouldUnregister prop is mutating defaultValues object",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 99,
+      "x": 0.21162,
+      "y": 0.11868,
+      "clusterId": 1,
+      "category": "bug",
+      "title": "NextNodeServer handleNextImageRequest doens't work as expected with assetPrefix and custom next/image loader",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 100,
+      "x": 0.42623,
+      "y": 0.66523,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Static Indicator still use an old image",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 101,
+      "x": 0.43756,
+      "y": 0.61173,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: There's no mention to open the mdx file to preview the mdx file",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 102,
+      "x": 0.19104,
+      "y": 0.1994,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "State is deprecated, but still used in Docs",
+      "repo": "pmndrs/zustand"
+    },
+    {
+      "id": 103,
+      "x": 0.29274,
+      "y": 0.1584,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Docs: Clarity on the width and height properties of the Image component",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 104,
+      "x": 0.28825,
+      "y": 0.05618,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "invalid TypeScript Documentation for usage of transformResponse in rtk-query/enhanceEndpoints",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 105,
+      "x": 0.25859,
+      "y": 0.19325,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Fix remaining docs references to `slice` field",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 106,
+      "x": 0.19461,
+      "y": -0.03335,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Using subscribeWithSelector and immer middleware",
+      "repo": "pmndrs/zustand"
+    },
+    {
+      "id": 107,
+      "x": 0.44334,
+      "y": 0.63177,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: inaccuracy in React Foundations (Chapter 4)",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 108,
+      "x": 0.44896,
+      "y": 0.48594,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Cookies function incorrectly documented as returning a Promise",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 109,
+      "x": 0.26845,
+      "y": 0.17132,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "v2 documentation loading v3 documentation",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 110,
+      "x": 0.27321,
+      "y": 0.14177,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "React Query v4 Examples and links not working",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 111,
+      "x": 0.30635,
+      "y": 0.16392,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "docs: Wrong URL for Nextjs example ",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 112,
+      "x": 0.14993,
+      "y": 0.03865,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Deadlink in doc",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 113,
+      "x": 0.21003,
+      "y": 0.07978,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Add usage section on thunks and async",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 114,
+      "x": 0.41815,
+      "y": 0.61167,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Improve scripts",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 115,
+      "x": 0.34358,
+      "y": 0.12983,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "[v5] Update `Devtools in production` docs section",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 116,
+      "x": 0.30003,
+      "y": 0.02762,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "hashQueryKey is not exported from tanstack/react-query",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 117,
+      "x": 0.4429,
+      "y": 0.69466,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: \"React Essentials\" does not exist",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 118,
+      "x": 0.22232,
+      "y": -0.06467,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Typescript Error when using Immer with custom \"Reset Multiple Stores\" function",
+      "repo": "pmndrs/zustand"
+    },
+    {
+      "id": 119,
+      "x": 0.47909,
+      "y": 0.63217,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Use `useActionState` over `useFormState`",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 120,
+      "x": 0.23084,
+      "y": 0.27652,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Docs: Redux-persist is died",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 121,
+      "x": 0.38684,
+      "y": 0.59873,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Cypress now supports Next.js 14",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 122,
+      "x": 0.42401,
+      "y": 0.68041,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Docs for all (previous) major versions",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 123,
+      "x": 0.39744,
+      "y": 0.56077,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: The docs say Next.JS 14 supports experimental PPR but anecdotal evidence says otherwise",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 124,
+      "x": 0.27756,
+      "y": 0.07916,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "useMutation.data is undefined during fetch, but must be the last success data",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 125,
+      "x": 0.22908,
+      "y": 0.08216,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Add Additional Information for Redux-Persist",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 126,
+      "x": 0.3172,
+      "y": 0.11427,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Docs (persistQueryClient.md) describe incorrect `PersistedClient` interface definition",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 127,
+      "x": 0.33865,
+      "y": 0.34519,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Installation Guide Causes React Compatibility Issues",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 128,
+      "x": 0.42815,
+      "y": 0.5275,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: unstable_cache recommendation to use 'use cache' directive link leads to 404",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 129,
+      "x": 0.4031,
+      "y": 0.6199,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: supported versions",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 130,
+      "x": 0.29799,
+      "y": 0.12073,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Docs: QueryCache - incorrect statements about `defaultOptions` callbacks",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 131,
+      "x": 0.327,
+      "y": 0.11432,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Unsafe SSR-pattern described in docs and example",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 132,
+      "x": 0.29606,
+      "y": 0.09672,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Search doesn't work on docs",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 133,
+      "x": 0.42594,
+      "y": 0.6337,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Updating the docs about fetch being memoized",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 134,
+      "x": 0.37724,
+      "y": -0.06914,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "V3 Umbrella Issue",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 135,
+      "x": 0.3609,
+      "y": 0.6149,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: typos in `gitignore` files",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 136,
+      "x": 0.24778,
+      "y": 0.00349,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "[RTK Query] Documentation for `useLazyQuery`'s `data` field",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 137,
+      "x": 0.18446,
+      "y": 0.06542,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Documentation mismatch: invalidateQueries default behavior claims \"all\" but only refetches \"active\" queries",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 138,
+      "x": 0.48439,
+      "y": 0.56806,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: next/link component - remove note about on hover",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 139,
+      "x": 0.42649,
+      "y": 0.67916,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Improving Documentation",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 140,
+      "x": 0.2935,
+      "y": -0.01041,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Incorrect types for focusManager.setEventListener",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 141,
+      "x": 0.45001,
+      "y": 0.39821,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Issue Next 14 generate a localized sitemap",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 142,
+      "x": 0.43057,
+      "y": 0.36506,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Next Config Support For (Or Note not Supporting) next.config.mts",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 143,
+      "x": 0.33431,
+      "y": 0.16916,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Update docs for slice pattern and usage of middleware such as devtools example included",
+      "repo": "pmndrs/zustand"
+    },
+    {
+      "id": 144,
+      "x": 0.41163,
+      "y": 0.6054,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: 404 occur in chapter TypeScript that about  link \"TypeScript plugin\" from /learn/dashboard-app/getting-started",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 145,
+      "x": 0.19398,
+      "y": 0.33244,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "docs(toolkit): fix `LazyInfiniteQueryTrigger` docs",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 146,
+      "x": 0.4343,
+      "y": 0.33269,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: fix data fetching with an ORM or db",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 147,
+      "x": 0.23649,
+      "y": 0.16461,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Extract middleware API docs to their own pages",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 148,
+      "x": 0.44109,
+      "y": 0.57858,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: \"Getting Started\" Route Missing in Next.js Docs",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 149,
+      "x": 0.39156,
+      "y": 0.04534,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Improve docs to avoid 'act' warning when using react-query in tests",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 150,
+      "x": 0.32016,
+      "y": -0.08656,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "RTKQ: selectFromResult causing rerender when returning new array or object",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 151,
+      "x": 0.32416,
+      "y": 0.15201,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "React Query v3 Examples and links not working",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 152,
+      "x": 0.34729,
+      "y": 0.24722,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "docs(toolkit): add missing description for `rawErrorResponseSchema` on `createApi` docs page",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 153,
+      "x": 0.18987,
+      "y": 0.01245,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "[Question] Flux pattern with high number of dispatch functions",
+      "repo": "pmndrs/zustand"
+    },
+    {
+      "id": 154,
+      "x": 0.32021,
+      "y": 0.10079,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Optimistic updates typescript example does not work locally",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 155,
+      "x": 0.39528,
+      "y": 0.49706,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: learn -> improving-accessibility, missing something about accessiblity ",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 156,
+      "x": 0.18842,
+      "y": 0.13163,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Stale documentation for UseQueryStateResult",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 157,
+      "x": 0.26134,
+      "y": 0.06223,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Docs - add info about builder matcher global scope",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 158,
+      "x": 0.34555,
+      "y": 0.54041,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Update Nextjs template for supabase",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 159,
+      "x": 0.29532,
+      "y": 0.06944,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Assorted docs tweaks suggestions",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 160,
+      "x": 0.4037,
+      "y": 0.66407,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Learn Next.js Chapter 9",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 161,
+      "x": 0.32392,
+      "y": 0.52164,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Broken link on Memory Usage ",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 162,
+      "x": 0.34529,
+      "y": 0.58614,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: \"Edit this Page on Github\" Button links to nonexistent paths on some pages",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 163,
+      "x": 0.30089,
+      "y": 0.13885,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Solid Query docs: Code examples with `useSuspenseQuery` that don't exist",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 164,
+      "x": 0.2534,
+      "y": -0.0147,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Some fetch errors don't have FETCH_ERROR as the error status",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 165,
+      "x": 0.39636,
+      "y": 0.27469,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Docs: geolocation is confusing (w/vercel) - why is req.geo only available on middlewere",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 166,
+      "x": 0.36725,
+      "y": 0.03135,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "[doc] online manager documentation seems wrong",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 167,
+      "x": 0.31124,
+      "y": 0.07179,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Update documentation comment for invalidationBehavior",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 168,
+      "x": 0.36932,
+      "y": 0.63574,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: NextRequest and NextResponse are being displayed in the `Pages` router docs ",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 169,
+      "x": 0.28112,
+      "y": -0.09877,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "TypeScript 4.0.0 migration confusion.  ",
+      "repo": "pmndrs/zustand"
+    },
+    {
+      "id": 170,
+      "x": 0.35299,
+      "y": 0.63157,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Broken link in Docs Contribution Guide",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 171,
+      "x": 0.0,
+      "y": 0.0,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "...",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 172,
+      "x": 0.40139,
+      "y": 0.59961,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: A conflicting formulation was found",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 173,
+      "x": 0.24204,
+      "y": -0.03723,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Cache invalidation not working on failed requests",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 174,
+      "x": 0.49023,
+      "y": 0.69332,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: eslint instructions are still for v8",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 175,
+      "x": 0.20051,
+      "y": 0.0539,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "minor issue: copy button is not working in the quick start page of redux-toolkit",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 176,
+      "x": 0.3607,
+      "y": 0.51096,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Minor syntax error in the streaming doc ",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 177,
+      "x": 0.37954,
+      "y": 0.6806,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs:  tst",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 178,
+      "x": 0.4201,
+      "y": 0.71984,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Vitest",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 179,
+      "x": 0.40296,
+      "y": 0.6576,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Pages functions used as examples for App directory",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 180,
+      "x": 0.19465,
+      "y": 0.24662,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Docs: @link leads to Netlify",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 181,
+      "x": 0.23695,
+      "y": 0.04647,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Object.fromEntries - browser compatible",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 182,
+      "x": 0.12347,
+      "y": 0.10683,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "CancelToken from axios is deprecated",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 183,
+      "x": 0.4723,
+      "y": 0.63213,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: NextImage document for png file",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 184,
+      "x": 0.26077,
+      "y": 0.18249,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "404 page in the documentation",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 185,
+      "x": 0.3778,
+      "y": -0.18575,
+      "clusterId": 3,
+      "category": "documentation",
+      "title": "Return type of selectFromResult must be Record<string, any> in useQueryState hook",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 186,
+      "x": 0.40866,
+      "y": 0.21556,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Docs : Remove ‘$’ from Installation Commands in Documentation",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 187,
+      "x": 0.19629,
+      "y": 0.06379,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Documentation - add @rtk-query/graphql-request-base-query",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 188,
+      "x": 0.20726,
+      "y": 0.12707,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Turbo config only accepted in experimental [Next.js 15]",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 189,
+      "x": 0.32672,
+      "y": 0.22202,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Docs: default image loader ignores image cache on new deployment, leading to higher usage costs",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 190,
+      "x": 0.39475,
+      "y": 0.69167,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: ISR documentation is missing content",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 191,
+      "x": 0.38977,
+      "y": 0.17678,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "'dynamicIO' does not exist in type 'ExperimentalConfig' in NextConfig",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 192,
+      "x": 0.33564,
+      "y": 0.40333,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Missing documentation about route groups and loading page behavior",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 193,
+      "x": 0.24469,
+      "y": 0.11099,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Add Usage Guide page on writing reducers with Immer",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 194,
+      "x": 0.38079,
+      "y": 0.51501,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: Next.js homepage doesn't reference latest stable version",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 195,
+      "x": 0.46735,
+      "y": 0.57707,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: server actions and mutations pending states",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 196,
+      "x": 0.16061,
+      "y": 0.19927,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Multiple `undefined` sections with broken links in the docs website",
+      "repo": "pmndrs/zustand"
+    },
+    {
+      "id": 197,
+      "x": 0.21543,
+      "y": 0.17573,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Update version 3 documentation example links",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 198,
+      "x": 0.41117,
+      "y": 0.36575,
+      "clusterId": 2,
+      "category": "documentation",
+      "title": "Docs: serverExternalPackages doesn't exist/isn't valid",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 199,
+      "x": 0.32448,
+      "y": 0.05252,
+      "clusterId": 1,
+      "category": "documentation",
+      "title": "Docs: Update Chapter 14 - error in useActionState in edit-form.tsx",
+      "repo": "vercel/next.js"
+    },
+    {
+      "id": 200,
+      "x": 0.14877,
+      "y": -0.0654,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "Export `ValidationRules` type",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 201,
+      "x": 0.42831,
+      "y": -0.28498,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "trigger with temporary values",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 202,
+      "x": 0.40357,
+      "y": -0.22428,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Bug / Feature Request: setValue with delayError shows incorrect validation errors",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 203,
+      "x": 0.40371,
+      "y": -0.234,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Allow type `ValidationValueMessage` to have a null/undefined `value`",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 204,
+      "x": 0.40057,
+      "y": -0.2531,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Submit the form outside the form (imperative submission)",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 205,
+      "x": 0.2762,
+      "y": 0.06549,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "ESLint prefer-query-object-syntax rule dose not fix and raise error useInfiniteQuery",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 206,
+      "x": 0.16925,
+      "y": -0.05367,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "Codemod for converting existing slice reducer objects to the create syntax",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 207,
+      "x": 0.39955,
+      "y": -0.21321,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Typescript: Support Array type for `name` in useWatch",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 208,
+      "x": 0.37619,
+      "y": -0.27813,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Calling reset with values and keepDefaultValues should update input values",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 209,
+      "x": 0.40147,
+      "y": -0.31421,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "An option to explicitly differentiate value change from user action and \"manual\" setValue call",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 210,
+      "x": 0.33533,
+      "y": -0.21451,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Expose a method to set the default value of a form",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 211,
+      "x": 0.30055,
+      "y": -0.16979,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "V6: Remove `ErrorMessage` Component",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 212,
+      "x": 0.40713,
+      "y": -0.25965,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Provide a way to disable merging of `defaultValues` into submission results",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 213,
+      "x": 0.36537,
+      "y": -0.28811,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Set multiple field values at once",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 214,
+      "x": 0.24462,
+      "y": -0.09445,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "Is it possible to set the default comparison function to shallow? ",
+      "repo": "pmndrs/zustand"
+    },
+    {
+      "id": 215,
+      "x": 0.39086,
+      "y": -0.23089,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Pass original validation error as an optional parameter of FieldError",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 216,
+      "x": 0.20538,
+      "y": -0.07652,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "Async `condition` in `createAsyncThunk`",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 217,
+      "x": 0.32889,
+      "y": -0.2236,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "issue: Array of error messages returned from `validate` function is neglected",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 218,
+      "x": 0.32197,
+      "y": -0.11006,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "[unstable_usePrompt] Trigger for `unstable_usePrompt` on Dialog Close",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 219,
+      "x": 0.29353,
+      "y": 0.02102,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "persistWithLocalStorage - Failed to execute 'setItem' on 'Storage'  REACT_QUERY_OFFLINE_CACHE exceeded the quota",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 220,
+      "x": 0.21547,
+      "y": -0.10787,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "invalidatesTags - minor improvement",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 221,
+      "x": 0.31629,
+      "y": -0.16116,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Create reusable form section",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 222,
+      "x": 0.22026,
+      "y": -0.07032,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "Query not refetching when enabled becomes 'true' and different instance is disabled",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 223,
+      "x": 0.367,
+      "y": -0.27229,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "feat: add `keepDirtyValue` option to `resetField`",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 224,
+      "x": 0.3978,
+      "y": -0.25973,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Feature Request: Introduce setSuccess Function Similar to setError in React-Hook-Form",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 225,
+      "x": 0.30963,
+      "y": -0.11698,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "issue:  An inappropriate error message when using useWatch outside of the FormContext",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 226,
+      "x": 0.34602,
+      "y": -0.23425,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Solution requested for issue that useFieldArray changes make all fields dirtyFields ",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 227,
+      "x": 0.38494,
+      "y": -0.33986,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "[Feature Request] isActive property in fieldState, activeField property in formState",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 228,
+      "x": 0.2506,
+      "y": -0.12741,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "RFC: async defaultValues",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 229,
+      "x": 0.39886,
+      "y": -0.25017,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Pass setError method to onSubmit via handleSubmit form method",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 230,
+      "x": 0.33472,
+      "y": -0.25193,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "RFC: Watch renders watched value by default",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 231,
+      "x": 0.38267,
+      "y": -0.24056,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Handle `formnovalidate` on submitters",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 232,
+      "x": 0.39202,
+      "y": -0.25256,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Support equality checks on form values of Date objects",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 233,
+      "x": 0.32463,
+      "y": -0.24263,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Field arrays lose their focus or position when reset",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 234,
+      "x": 0.39924,
+      "y": -0.27145,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "setValueAs for Controller",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 235,
+      "x": 0.30331,
+      "y": -0.20728,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Skip validations if a field is not required",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 236,
+      "x": 0.16725,
+      "y": 0.01921,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "getQueryArgs does not correctly handle all prefetchQuery signatures ",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 237,
+      "x": 0.31095,
+      "y": -0.25467,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Should render defaultValue SSR",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 238,
+      "x": 0.43184,
+      "y": -0.24532,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "More complex return values from custom validators",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 239,
+      "x": 0.23167,
+      "y": -0.0394,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "v7 Circular dependency",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 240,
+      "x": 0.23833,
+      "y": -0.0283,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "Types lost in version 6",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 241,
+      "x": 0.2404,
+      "y": -0.11724,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Native browser validation doesn't work with useController",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 242,
+      "x": 0.08803,
+      "y": 0.01047,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "RTK Query - Unwrap lazy query",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 243,
+      "x": 0.29932,
+      "y": -0.17276,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "[Feature Request] Better DX, add <Watch />, the component version of useWatch ",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 244,
+      "x": 0.41311,
+      "y": -0.26877,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Complex form structure breaks useFieldArray throwing resetFieldArrayFunctionRef.current[name] is not a function",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 245,
+      "x": 0.24879,
+      "y": -0.02499,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "mutation initiate promise result is missing extra cache entry contents (consistency with query initiate)",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 246,
+      "x": 0.37291,
+      "y": -0.30377,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Better support for custom form control component with auto validation support",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 247,
+      "x": 0.41073,
+      "y": -0.24615,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Add mode: 'onTrigger' to enable programmatic validation activation",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 248,
+      "x": 0.32714,
+      "y": -0.2283,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Controller render prop includes dirty/error in params",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 249,
+      "x": 0.42918,
+      "y": -0.29195,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Feature request - getValues to return deep copy ",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 250,
+      "x": 0.2233,
+      "y": -0.129,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "useFieldArray: should unregister false and swap ",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 251,
+      "x": 0.40183,
+      "y": -0.31898,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Feature Request: modeling different resolver input and output types",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 252,
+      "x": 0.3664,
+      "y": -0.2565,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "The resolver function is called many times with invalid data ",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 253,
+      "x": 0.2232,
+      "y": -0.12641,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Ability to call trigger() on fieldArray fields",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 254,
+      "x": 0.3133,
+      "y": -0.2352,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "useController/Controller doesn't support native checkbox input without value",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 255,
+      "x": 0.35638,
+      "y": -0.19179,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Expose name in Controller's render function",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 256,
+      "x": 0.32859,
+      "y": -0.00286,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Update docs at website (TS section)",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 257,
+      "x": 0.37414,
+      "y": -0.18476,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "feature: better integration with react router and remix Form and actions",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 258,
+      "x": 0.2565,
+      "y": -0.19036,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "reset(formValues) can mutate the formValues argument",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 259,
+      "x": 0.37391,
+      "y": -0.29403,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "useWatch computed value performance",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 260,
+      "x": 0.36576,
+      "y": -0.21254,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "issue: formState.errors wrong if update array field before swap",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 261,
+      "x": 0.40616,
+      "y": -0.26443,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "issue: Fields built with the Controller component does not unregister properly",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 262,
+      "x": 0.37121,
+      "y": -0.12577,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Add unit tests for isDateObject utility",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 263,
+      "x": 0.27416,
+      "y": -0.0521,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "devtools: accessing serialize option",
+      "repo": "pmndrs/zustand"
+    },
+    {
+      "id": 264,
+      "x": 0.38913,
+      "y": -0.2407,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "feat: Add additional Types that do not include the ref in FieldValues",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 265,
+      "x": 0.38623,
+      "y": -0.21762,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Add a `validate` method or similar to useForm",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 266,
+      "x": 0.37486,
+      "y": -0.24316,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "feature: Built-in form data extraction strategies",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 267,
+      "x": 0.29858,
+      "y": -0.15332,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "[v6] - watch returns defaultValue after moving an item in a fieldArray",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 268,
+      "x": 0.41475,
+      "y": -0.26722,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "issue: isSubmitting is set to true, when submitting invalid form, isValid ===false",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 269,
+      "x": 0.23042,
+      "y": -0.08126,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "perf: Optimize bundle size by tuning Terser compression options",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 270,
+      "x": 0.3806,
+      "y": -0.3236,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Mode:onSubmit for a single input control",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 271,
+      "x": 0.35511,
+      "y": -0.2899,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Feature Request - auto unregister inputs on unmount ",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 272,
+      "x": 0.19168,
+      "y": -0.06911,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "Support optional `AbortSginal` argument when dispatch thunk action",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 273,
+      "x": 0.39357,
+      "y": -0.29731,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Provide means to get the formState of a particular field set parent",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 274,
+      "x": 0.303,
+      "y": -0.10963,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Allow to add an extra context to `handleSubmit` function",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 275,
+      "x": 0.37127,
+      "y": -0.25969,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Support not running validation when appending to useFieldArray",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 276,
+      "x": 0.37564,
+      "y": 0.00311,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "allow react 19 peer dependency ",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 277,
+      "x": 0.28685,
+      "y": -0.21797,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Async validation runs into race conditions.",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 278,
+      "x": 0.38062,
+      "y": -0.25348,
+      "clusterId": 3,
+      "category": "feature",
+      "title": ".setValue does not exists on controller or lens",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 279,
+      "x": 0.37785,
+      "y": -0.21716,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Export HookFormContext",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 280,
+      "x": 0.42013,
+      "y": -0.30495,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Allow object values that are non-nested",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 281,
+      "x": 0.33502,
+      "y": -0.15276,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Add better error message when useFormContext is used outside of FormContext",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 282,
+      "x": 0.36763,
+      "y": -0.28474,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Support for debouncing validations",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 283,
+      "x": 0.31149,
+      "y": -0.20343,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Allow customization of unregistration on field unmount",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 284,
+      "x": 0.36441,
+      "y": -0.28872,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Support isValid check for nested objects only within form values",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 285,
+      "x": 0.40048,
+      "y": -0.18971,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Top-level control of useFieldArray focusOptions",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 286,
+      "x": 0.27474,
+      "y": -0.05435,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "RTKQ feature proposal: Add transformError property to the endpoints",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 287,
+      "x": 0.34995,
+      "y": -0.12579,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "[7.11.1] Incorrect type inferrence of Controller.defaultValue",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 288,
+      "x": 0.38699,
+      "y": -0.307,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "feat: useWatch with selector",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 289,
+      "x": 0.36244,
+      "y": -0.23247,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "support string arrays or number arrays with append() ",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 290,
+      "x": 0.41799,
+      "y": -0.27141,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "issue: reset() and keepDirtyValues on dirty fields containing an array always resets the value",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 291,
+      "x": 0.37155,
+      "y": -0.23619,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Errors properties off by one render outside render",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 292,
+      "x": 0.38457,
+      "y": -0.16291,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Bug 7.5.3-beta.0 - Reset with nested list causes app to crash",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 293,
+      "x": 0.29832,
+      "y": -0.07245,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "persist API: store initial value ",
+      "repo": "pmndrs/zustand"
+    },
+    {
+      "id": 294,
+      "x": 0.3801,
+      "y": -0.2026,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "issue: can't get typescript to accept different schema output using zod",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 295,
+      "x": 0.36317,
+      "y": -0.23743,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "V7: `useWatch` should accept callback like `form.watch`",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 296,
+      "x": 0.32636,
+      "y": -0.208,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "How can I build deep nested form with tabs structure with single submit button?",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 297,
+      "x": 0.40836,
+      "y": -0.34991,
+      "clusterId": 3,
+      "category": "feature",
+      "title": "Feature Request: Allow resetField to be used on object/field array inputs",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 298,
+      "x": 0.23902,
+      "y": -0.06077,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "[RED-20] Allow passing a `createSelector` instance to adapter.getSelectors",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 299,
+      "x": 0.29351,
+      "y": 0.0189,
+      "clusterId": 1,
+      "category": "feature",
+      "title": "queryCache.refetchQueries(...) won't work as documented if staleTime is not reached (or at least if set to Infinity)",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 300,
+      "x": 0.37467,
+      "y": -0.119,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Regression - Jest incorrectly reporting fromState.errors and formState.isValid",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 301,
+      "x": 0.29257,
+      "y": -0.12818,
+      "clusterId": 3,
+      "category": "question",
+      "title": "What type to use? useFieldArray",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 302,
+      "x": 0.40238,
+      "y": -0.23156,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: keepDirtyValues only keeps values if \"dirtyFields\" is deconstructed from fieldState",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 303,
+      "x": 0.27006,
+      "y": -0.08774,
+      "clusterId": 1,
+      "category": "question",
+      "title": "TData gets incorrectly inferred in useQuery when providing both select and onSuccess",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 304,
+      "x": 0.46006,
+      "y": -0.24303,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: Form `isDirty` doesn't always match `dirtyFields`",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 305,
+      "x": 0.29137,
+      "y": -0.03243,
+      "clusterId": 3,
+      "category": "question",
+      "title": "`dirtyFields` mutates and does not update when it changes",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 306,
+      "x": 0.27964,
+      "y": -0.05878,
+      "clusterId": 3,
+      "category": "question",
+      "title": "allow useContext instead of little-state-machine in multistep wizard form",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 307,
+      "x": 0.36855,
+      "y": -0.25186,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: Possible race condition between reset and resetField",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 308,
+      "x": 0.33534,
+      "y": -0.21864,
+      "clusterId": 3,
+      "category": "question",
+      "title": "More precise return type of handleSubmit",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 309,
+      "x": 0.40819,
+      "y": -0.20517,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Bug - V7 field arrays do not update item value",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 310,
+      "x": 0.11276,
+      "y": -0.01939,
+      "clusterId": 1,
+      "category": "question",
+      "title": "setup bundle size report",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 311,
+      "x": 0.35693,
+      "y": -0.19666,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: `resetField` not retaining field state with `keep*`",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 312,
+      "x": 0.35109,
+      "y": -0.25482,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: input state isTouched is always false",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 313,
+      "x": 0.35701,
+      "y": -0.1796,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: Lose focus after 1st character in 1st input if valid, lose focus after 1st character in last invalid input of form",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 314,
+      "x": 0.24123,
+      "y": -0.09769,
+      "clusterId": 3,
+      "category": "question",
+      "title": "getValues('test') returns undefined combined with useFieldArray.",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 315,
+      "x": 0.3238,
+      "y": -0.20397,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Provide and example with Ant forms",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 316,
+      "x": 0.27864,
+      "y": -0.19004,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Provide validating fields",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 317,
+      "x": 0.35096,
+      "y": -0.22247,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: setError used with shouldFocus doesn't set the focus properly",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 318,
+      "x": 0.38258,
+      "y": -0.22362,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: Errors don't update with useFieldArray",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 319,
+      "x": 0.39899,
+      "y": -0.25063,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: Form validation behavior changes when the isValid form state is subscribed",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 320,
+      "x": 0.4421,
+      "y": -0.25748,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: Form Validation Fails with Disabled Fields in Version > 7.48.2 using shadcn/ui with Form Component",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 321,
+      "x": 0.36623,
+      "y": -0.25709,
+      "clusterId": 3,
+      "category": "question",
+      "title": "V7 resolvers issue - field array errors",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 322,
+      "x": 0.35509,
+      "y": -0.26429,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: validation error after reset form",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 323,
+      "x": 0.26914,
+      "y": -0.14077,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Lost fields registered when using reset method",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 324,
+      "x": 0.21542,
+      "y": 0.17123,
+      "clusterId": 1,
+      "category": "question",
+      "title": "Docs: minor tweaks to improve clarification of the createAPI",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 325,
+      "x": 0.24495,
+      "y": -0.15933,
+      "clusterId": 3,
+      "category": "question",
+      "title": "MaxLength property missing from <input> when using ZodResolver",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 326,
+      "x": 0.35931,
+      "y": -0.30038,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: useWatch triggered by form input with similar name.",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 327,
+      "x": 0.42098,
+      "y": -0.24868,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: validate does not receive formValues",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 328,
+      "x": 0.40094,
+      "y": -0.24008,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Bug: react-hook-form doesn't change the form validity when a new value is selected after submit",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 329,
+      "x": 0.35005,
+      "y": -0.14135,
+      "clusterId": 3,
+      "category": "question",
+      "title": "[useFieldArray] `watch` does not return correct values when removing item",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 330,
+      "x": 0.34702,
+      "y": -0.26168,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: isValid re-trigger validation for each field",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 331,
+      "x": 0.22254,
+      "y": -0.07101,
+      "clusterId": 1,
+      "category": "question",
+      "title": "Investigation: fine-grained async control over caching behaviour",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 332,
+      "x": 0.42728,
+      "y": -0.25525,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: Yup validation with \"test\"-function validates too early ",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 333,
+      "x": 0.4439,
+      "y": -0.27754,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: incorrect types for form.getFieldState",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 334,
+      "x": 0.29934,
+      "y": -0.2313,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: object converted to array when field is unregistered",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 335,
+      "x": 0.39645,
+      "y": -0.20154,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: Controlled inputs initiated with null don't get reset",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 336,
+      "x": 0.33744,
+      "y": -0.1292,
+      "clusterId": 3,
+      "category": "question",
+      "title": "TS: SubmitHandler event argument type",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 337,
+      "x": 0.36909,
+      "y": -0.25183,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Unexpected Render with e.g. `useFormState({ control, name: \"test.0.lastName\" })`",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 338,
+      "x": 0.38703,
+      "y": -0.19942,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Yup array error not showing up",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 339,
+      "x": 0.33325,
+      "y": -0.08954,
+      "clusterId": 1,
+      "category": "question",
+      "title": "Query caches error result and never calls queryFn",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 340,
+      "x": 0.40022,
+      "y": -0.22344,
+      "clusterId": 3,
+      "category": "question",
+      "title": "After removing a field from a `useFieldArray` of `Controller` components, form does not re-render properly",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 341,
+      "x": 0.32421,
+      "y": -0.04984,
+      "clusterId": 1,
+      "category": "question",
+      "title": "Improve aria-tagging of Devtools",
+      "repo": "TanStack/query"
+    },
+    {
+      "id": 342,
+      "x": 0.33982,
+      "y": -0.21377,
+      "clusterId": 3,
+      "category": "question",
+      "title": "onBlur is not triggered on controlled input field",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 343,
+      "x": 0.40703,
+      "y": -0.26568,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: Empty space doesn't occur error when `valueAsNumber` flag is set.",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 344,
+      "x": 0.28932,
+      "y": -0.23269,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Watch not re-rendering when input value property changes",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 345,
+      "x": 0.26202,
+      "y": -0.02646,
+      "clusterId": 1,
+      "category": "question",
+      "title": "Unable to resolve peer dependency with latest version of React.",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 346,
+      "x": 0.32503,
+      "y": -0.21541,
+      "clusterId": 3,
+      "category": "question",
+      "title": " [issue: TextInput]: When I parsed to Number it trails zeros from the end",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 347,
+      "x": 0.44664,
+      "y": -0.32508,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Several mods of validation for the same form",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 348,
+      "x": 0.25477,
+      "y": -0.16925,
+      "clusterId": 3,
+      "category": "question",
+      "title": "I want API only reset form state not values",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 349,
+      "x": 0.37581,
+      "y": -0.24218,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: async validation result replaces latest sync validation result",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 350,
+      "x": 0.26279,
+      "y": -0.17036,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: useFieldArray change is not applied to dirtyFields",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 351,
+      "x": 0.3098,
+      "y": -0.13552,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Rerender component in production build",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 352,
+      "x": 0.41326,
+      "y": -0.30462,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: Can not get the real field type",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 353,
+      "x": 0.42338,
+      "y": -0.26376,
+      "clusterId": 3,
+      "category": "question",
+      "title": "IonInput doesn't register properly without setting its' `type` property",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 354,
+      "x": 0.40044,
+      "y": -0.19829,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Default values of disabled inputs are ignored",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 355,
+      "x": 0.46416,
+      "y": -0.23589,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: potencial bug: setValue does render updates of fields controlled by useFieldArray",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 356,
+      "x": 0.31314,
+      "y": -0.21829,
+      "clusterId": 3,
+      "category": "question",
+      "title": "nested value disappear when remount NestedFieldArray ",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 357,
+      "x": 0.41821,
+      "y": -0.30092,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Triggering validation on input change in a field array causes form to slow down massively",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 358,
+      "x": 0.21238,
+      "y": -0.02905,
+      "clusterId": 1,
+      "category": "question",
+      "title": "How to connect to redux devtools?",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 359,
+      "x": 0.26515,
+      "y": -0.22973,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Fluentui TextField onChange not firing with yup schema validation",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 360,
+      "x": 0.22648,
+      "y": 0.02793,
+      "clusterId": 1,
+      "category": "question",
+      "title": "Zustand breaks with NextJS 13 when enabling appDir (Cannot read properties of null (reading 'useDebugValue'))",
+      "repo": "pmndrs/zustand"
+    },
+    {
+      "id": 361,
+      "x": 0.09222,
+      "y": 0.02915,
+      "clusterId": 1,
+      "category": "question",
+      "title": "Website graphics rendering issues (Linux)",
+      "repo": "pmndrs/zustand"
+    },
+    {
+      "id": 362,
+      "x": 0.14568,
+      "y": -0.04826,
+      "clusterId": 1,
+      "category": "question",
+      "title": "Is it possible to see all active zustand stores in React native debugger?",
+      "repo": "pmndrs/zustand"
+    },
+    {
+      "id": 363,
+      "x": 0.34396,
+      "y": -0.26064,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Appending a Controller-based input in a useFieldArray has incorrect defaultValue",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 364,
+      "x": 0.27488,
+      "y": -0.03039,
+      "clusterId": 1,
+      "category": "question",
+      "title": "Version 6.0.0 rc-3 Getting Error render is not a function when using FormContext",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 365,
+      "x": 0.24831,
+      "y": -0.11836,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Unregister does not work",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 366,
+      "x": 0.31595,
+      "y": -0.21942,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Field Array does not work with validating fields",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 367,
+      "x": 0.36418,
+      "y": -0.22595,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: behavior between 7.12.2 -> 7.13.0-next.0+ changed for fieldset",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 368,
+      "x": 0.21059,
+      "y": -0.10432,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Dynamic checkboxes losing selected state when adding/removing new items",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 369,
+      "x": 0.3236,
+      "y": -0.24429,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: Rendering a controller for a field in field array causes issues with setting value for that field",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 370,
+      "x": 0.25474,
+      "y": -0.12585,
+      "clusterId": 3,
+      "category": "question",
+      "title": "When required field is unmounted there is no warning",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 371,
+      "x": 0.37212,
+      "y": -0.23277,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: errors object has an unnamed field when using zod",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 372,
+      "x": 0.26595,
+      "y": -0.21416,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: dirty fields not cleaned properly after being removed from useFieldArray",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 373,
+      "x": 0.36757,
+      "y": -0.14517,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: ",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 374,
+      "x": 0.3214,
+      "y": -0.16417,
+      "clusterId": 3,
+      "category": "question",
+      "title": "`Controller`: validate `onBlur` + `shouldFocusError` seemingly not working properly",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 375,
+      "x": 0.37791,
+      "y": -0.19636,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: #4740 recommend to set a default value to undefined but https://react-hook-form.com/docs/useform#defaultValues says you should not",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 376,
+      "x": 0.27793,
+      "y": -0.21228,
+      "clusterId": 3,
+      "category": "question",
+      "title": "isDirty remaining false ",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 377,
+      "x": 0.46748,
+      "y": -0.18688,
+      "clusterId": 3,
+      "category": "question",
+      "title": "[Bug] StrictMode combined with Controllers and async setValue's not working as expected",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 378,
+      "x": 0.32382,
+      "y": -0.11043,
+      "clusterId": 3,
+      "category": "question",
+      "title": "react-datepicker does not work with recent releases of react-hook-form",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 379,
+      "x": 0.27297,
+      "y": -0.04481,
+      "clusterId": 1,
+      "category": "question",
+      "title": "[Proposal] 🚀 Testing utilities for zustand",
+      "repo": "pmndrs/zustand"
+    },
+    {
+      "id": 380,
+      "x": 0.38416,
+      "y": -0.29403,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Add ability to watch form values without re-rendering, supplying with callback for changes.",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 381,
+      "x": 0.43087,
+      "y": -0.29057,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: Select with multiple attribute not resetting",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 382,
+      "x": 0.42771,
+      "y": -0.14846,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: using watch on a field that doesn't yet exist causes unexpected value to be returned",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 383,
+      "x": 0.2744,
+      "y": -0.09345,
+      "clusterId": 3,
+      "category": "question",
+      "title": "MUI KeyboardDatePicker inside Controller is returning +1 day",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 384,
+      "x": 0.34801,
+      "y": -0.26285,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: formState.isValid true while formState.errors not null",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 385,
+      "x": 0.3586,
+      "y": -0.17651,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Custom yup validation with useFieldArray doesn't always trigger re-render ",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 386,
+      "x": 0.42235,
+      "y": -0.20295,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Validation does not trigger until submit is invoked",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 387,
+      "x": 0.32445,
+      "y": -0.12251,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: additionalProperties error not returned",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 388,
+      "x": 0.26279,
+      "y": -0.1769,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Incorrect type for name parameter in Controller.render",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 389,
+      "x": 0.3725,
+      "y": -0.17379,
+      "clusterId": 3,
+      "category": "question",
+      "title": "[Bug]: Type error on error object if the field array shape is an interface",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 390,
+      "x": 0.27923,
+      "y": -0.09695,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: setError from child component does not trigger a rerender",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 391,
+      "x": 0.22164,
+      "y": -0.03033,
+      "clusterId": 1,
+      "category": "question",
+      "title": "Re-use Api Endpoints & Extend RTK Query Base Queries",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 392,
+      "x": 0.3599,
+      "y": -0.27942,
+      "clusterId": 3,
+      "category": "question",
+      "title": "issue: unmounted input skip validation",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 393,
+      "x": 0.31281,
+      "y": -0.18098,
+      "clusterId": 3,
+      "category": "question",
+      "title": "v7 useWatch with useFieldArray and controlled input with unregister",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 394,
+      "x": 0.38523,
+      "y": -0.2547,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Unable to submit when non-registered field has error - Possible regression v5->v6",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 395,
+      "x": 0.32439,
+      "y": -0.1442,
+      "clusterId": 3,
+      "category": "question",
+      "title": "`useEffect` not triggering when `errors` object updates on `reValidate`",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 396,
+      "x": 0.30983,
+      "y": -0.09795,
+      "clusterId": 3,
+      "category": "question",
+      "title": "useWatch vs watch with dynamic rendering",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 397,
+      "x": 0.17478,
+      "y": -0.00558,
+      "clusterId": 1,
+      "category": "question",
+      "title": "Duplicate Ids when updating the id of an element with the id of an existing element",
+      "repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "id": 398,
+      "x": 0.32184,
+      "y": -0.18967,
+      "clusterId": 3,
+      "category": "question",
+      "title": "[v7] Checkbox value is not updated in onChange mode",
+      "repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "id": 399,
+      "x": 0.2899,
+      "y": -0.13022,
+      "clusterId": 3,
+      "category": "question",
+      "title": "Controller with type=\"file\"",
+      "repo": "react-hook-form/react-hook-form"
+    }
+  ],
+  "clusters": [
+    {
+      "categoryId": 0,
+      "clusterId": 0,
+      "name": "Cluster 1",
+      "dominantCategory": "bug",
+      "count": 13,
+      "color": "#e11d48",
+      "labelDistribution": {
+        "bug": 13
+      },
+      "keywords": [
+        "compiler",
+        "react compiler",
+        "plugin",
+        "plugin react",
+        "installing using",
+        "issue installing",
+        "build issue",
+        "installing",
+        "eslint plugin",
+        "healthcheck",
+        "compiler bug",
+        "babel plugin"
+      ],
+      "representativeIssues": [
+        {
+          "title": "[Compiler Bug]: `startTransition` shouldn't be required as a dependency for `useCallback`.",
+          "repo": "facebook/react",
+          "url": "https://github.com/react/react/issues/34748"
+        },
+        {
+          "title": "[Compiler Bug]: NaN in dependency list of useMemo always causes re-evaluation",
+          "repo": "facebook/react",
+          "url": "https://github.com/react/react/issues/35854"
+        },
+        {
+          "title": "[Compiler Bug]: Unicode characters handled incorrectly",
+          "repo": "facebook/react",
+          "url": "https://github.com/react/react/issues/32915"
+        },
+        {
+          "title": "[Compiler Bug]: Increment expression in for-loop loses assignment operation",
+          "repo": "facebook/react",
+          "url": "https://github.com/react/react/issues/29956"
+        },
+        {
+          "title": "[Compiler Bug]: Value returned from `useEffectEvent` is mistakenly treated as a dependency",
+          "repo": "facebook/react",
+          "url": "https://github.com/react/react/issues/35561"
+        }
+      ]
+    },
+    {
+      "categoryId": 1,
+      "clusterId": 1,
+      "name": "Cluster 2",
+      "dominantCategory": "bug",
+      "count": 169,
+      "color": "#16a34a",
+      "labelDistribution": {
+        "bug": 75,
+        "documentation": 57,
+        "feature": 22,
+        "question": 15
+      },
+      "keywords": [
+        "query",
+        "react",
+        "error",
+        "devtools",
+        "bug",
+        "example",
+        "docs",
+        "const",
+        "js",
+        "documentation",
+        "current",
+        "node"
+      ],
+      "representativeIssues": [
+        {
+          "title": "...",
+          "repo": "vercel/next.js",
+          "url": "https://github.com/vercel/next.js/issues/65712"
+        },
+        {
+          "title": "Angular query devtools are included in production builds",
+          "repo": "TanStack/query",
+          "url": "https://github.com/TanStack/query/issues/8018"
+        },
+        {
+          "title": "[v5] Update `Devtools in production` docs section",
+          "repo": "TanStack/query",
+          "url": "https://github.com/TanStack/query/issues/6003"
+        },
+        {
+          "title": "node:buffer error",
+          "repo": "vercel/next.js",
+          "url": "https://github.com/vercel/next.js/issues/68759"
+        },
+        {
+          "title": "Extended Set Methods (like `union()`) Not Included in Default Polyfills Despite Documentation",
+          "repo": "vercel/next.js",
+          "url": "https://github.com/vercel/next.js/issues/74976"
+        }
+      ]
+    },
+    {
+      "categoryId": 2,
+      "clusterId": 2,
+      "name": "Cluster 3",
+      "dominantCategory": "documentation",
+      "count": 42,
+      "color": "#2563eb",
+      "labelDistribution": {
+        "documentation": 42
+      },
+      "keywords": [
+        "docs",
+        "help understand",
+        "context help",
+        "exist",
+        "page",
+        "understand",
+        "help",
+        "page exist",
+        "does docs",
+        "docs page",
+        "documentation",
+        "context"
+      ],
+      "representativeIssues": [
+        {
+          "title": "Docs: Vitest",
+          "repo": "vercel/next.js",
+          "url": "https://github.com/vercel/next.js/issues/73809"
+        },
+        {
+          "title": "Docs: \"React Essentials\" does not exist",
+          "repo": "vercel/next.js",
+          "url": "https://github.com/vercel/next.js/issues/72566"
+        },
+        {
+          "title": "Improving Documentation",
+          "repo": "vercel/next.js",
+          "url": "https://github.com/vercel/next.js/issues/71200"
+        },
+        {
+          "title": "Docs: eslint instructions are still for v8",
+          "repo": "vercel/next.js",
+          "url": "https://github.com/vercel/next.js/issues/71864"
+        },
+        {
+          "title": "Docs: Docs for all (previous) major versions",
+          "repo": "vercel/next.js",
+          "url": "https://github.com/vercel/next.js/issues/65816"
+        }
+      ]
+    },
+    {
+      "categoryId": 3,
+      "clusterId": 3,
+      "name": "Cluster 4",
+      "dominantCategory": "question",
+      "count": 176,
+      "color": "#facc15",
+      "labelDistribution": {
+        "question": 85,
+        "feature": 78,
+        "bug": 12,
+        "documentation": 1
+      },
+      "keywords": [
+        "form",
+        "field",
+        "value",
+        "input",
+        "validation",
+        "like",
+        "values",
+        "number",
+        "issue",
+        "feature",
+        "fields",
+        "feature request"
+      ],
+      "representativeIssues": [
+        {
+          "title": "Several mods of validation for the same form",
+          "repo": "react-hook-form/react-hook-form",
+          "url": "https://github.com/react-hook-form/react-hook-form/issues/8649"
+        },
+        {
+          "title": "Feature Request: Allow resetField to be used on object/field array inputs",
+          "repo": "react-hook-form/react-hook-form",
+          "url": "https://github.com/react-hook-form/react-hook-form/issues/7579"
+        },
+        {
+          "title": "issue: Select with multiple attribute not resetting",
+          "repo": "react-hook-form/react-hook-form",
+          "url": "https://github.com/react-hook-form/react-hook-form/issues/8785"
+        },
+        {
+          "title": "Triggering validation on input change in a field array causes form to slow down massively",
+          "repo": "react-hook-form/react-hook-form",
+          "url": "https://github.com/react-hook-form/react-hook-form/issues/8340"
+        },
+        {
+          "title": "issue: Can not get the real field type",
+          "repo": "react-hook-form/react-hook-form",
+          "url": "https://github.com/react-hook-form/react-hook-form/issues/9946"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    "#e11d48",
+    "#16a34a",
+    "#2563eb",
+    "#facc15"
+  ]
+}

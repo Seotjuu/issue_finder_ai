@@ -22,7 +22,12 @@ logger = logging.getLogger(__name__)
 DATA_DIR = Path(__file__).resolve().parent
 ISSUES_PATH = DATA_DIR / "dataset" / "issues.json"
 METRICS_PATH = DATA_DIR / "saved_models" / "metrics.json"
-CLUSTER_DATA_PATH = DATA_DIR.parent / "frontend" / "lib" / "cluster-data.json"
+# cluster-data.json을 backend/dataset/ 아래에도 찾고, 없으면 frontend/lib/ 경로 시도
+_cluster_candidates = [
+    DATA_DIR / "dataset" / "cluster-data.json",
+    DATA_DIR.parent / "frontend" / "lib" / "cluster-data.json",
+]
+CLUSTER_DATA_PATH = next((p for p in _cluster_candidates if p.exists()), _cluster_candidates[0])
 
 ModelName = Literal[
     "LogisticRegression",
@@ -147,9 +152,14 @@ _issues = _load_issues()
 similarity_engine = SimilarityEngine(_issues)
 model_metrics = _load_metrics()
 
+import os
+
+_raw_origins = os.environ.get("ALLOWED_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000")
+_allowed_origins = [o.strip() for o in _raw_origins.split(",") if o.strip()]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=_allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
