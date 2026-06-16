@@ -10,6 +10,7 @@
 # 파일 크기가 100MB 초과 시 Git LFS 사용 필요
 /backend/saved_models/*.keras
 /backend/saved_models/*.h5
+/backend/saved_models/mlp.pkl
 
 # Dataset (issues.json은 배포에 필요하므로 git에 포함)
 
@@ -67,3 +68,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel

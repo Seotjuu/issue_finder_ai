@@ -12,8 +12,9 @@ from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 from sklearn.cluster import KMeans
 from sklearn.decomposition import TruncatedSVD
 from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
-from sklearn.metrics import accuracy_score, precision_recall_fscore_support, silhouette_score
-from sklearn.model_selection import train_test_split
+from sklearn.base import clone
+from sklearn.metrics import accuracy_score, precision_recall_fscore_support, silhouette_score, make_scorer, f1_score, precision_score, recall_score
+from sklearn.model_selection import train_test_split, StratifiedKFold, cross_validate
 from sklearn.neural_network import MLPClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import ComplementNB
@@ -192,6 +193,15 @@ def split_dataset(prepared: pd.DataFrame) -> tuple[pd.Series, pd.Series, pd.Seri
     )
 
 
+CV_FOLDS = 5
+CV_SCORERS = {
+    "accuracy": make_scorer(accuracy_score),
+    "precision": make_scorer(precision_score, average="weighted", zero_division=0),
+    "recall": make_scorer(recall_score, average="weighted", zero_division=0),
+    "f1": make_scorer(f1_score, average="weighted", zero_division=0),
+}
+
+
 def evaluate_predictions(y_true: pd.Series, y_pred: np.ndarray | list[str]) -> dict[str, float]:
     precision, recall, f1, _ = precision_recall_fscore_support(
         y_true,
@@ -207,27 +217,39 @@ def evaluate_predictions(y_true: pd.Series, y_pred: np.ndarray | list[str]) -> d
     }
 
 
+def cross_validate_pipeline(pipeline: Pipeline, x: pd.Series, y: pd.Series) -> dict[str, float]:
+    cv = StratifiedKFold(n_splits=CV_FOLDS, shuffle=True, random_state=RANDOM_STATE)
+    scores = cross_validate(pipeline, x, y, cv=cv, scoring=CV_SCORERS, n_jobs=-1)
+    metrics = {
+        metric: float(scores[f"test_{metric}"].mean())
+        for metric in CV_SCORERS
+    }
+    logger.info(
+        "CV(%d-fold) accuracy=%.4f f1=%.4f",
+        CV_FOLDS, metrics["accuracy"], metrics["f1"],
+    )
+    return metrics
+
+
 def train_mlp(x_train: pd.Series, x_test: pd.Series, y_train: pd.Series, y_test: pd.Series) -> dict[str, float]:
     min_df = 2 if len(x_train) >= 20 else 1
-    model = Pipeline(
-        steps=[
+
+    def _make_pipeline() -> Pipeline:
+        return Pipeline(steps=[
             ("tfidf", TfidfVectorizer(max_features=20000, ngram_range=(1, 2), min_df=min_df)),
-            (
-                "classifier",
-                MLPClassifier(
-                    hidden_layer_sizes=(256, 128),
-                    activation="relu",
-                    max_iter=30,
-                    early_stopping=False,
-                    random_state=RANDOM_STATE,
-                ),
-            ),
-        ]
-    )
-    model.fit(x_train, y_train)
-    predictions = model.predict(x_test)
-    metrics = evaluate_predictions(y_test, predictions)
-    joblib.dump(model, MODEL_DIR / "mlp.pkl")
+            ("classifier", MLPClassifier(
+                hidden_layer_sizes=(256, 128),
+                activation="relu",
+                max_iter=30,
+                early_stopping=False,
+                random_state=RANDOM_STATE,
+            )),
+        ])
+
+    metrics = cross_validate_pipeline(_make_pipeline(), x_train, y_train)
+    final_model = _make_pipeline()
+    final_model.fit(x_train, y_train)
+    joblib.dump(final_model, MODEL_DIR / "mlp.pkl")
     return metrics
 
 
@@ -240,16 +262,17 @@ def train_text_classifier(
     y_test: pd.Series,
 ) -> dict[str, float]:
     min_df = 2 if len(x_train) >= 20 else 1
-    model = Pipeline(
-        steps=[
+
+    def _make_pipeline() -> Pipeline:
+        return Pipeline(steps=[
             ("tfidf", TfidfVectorizer(max_features=5000, ngram_range=(1, 2), min_df=min_df)),
-            ("classifier", classifier),
-        ]
-    )
-    model.fit(x_train, y_train)
-    predictions = model.predict(x_test)
-    metrics = evaluate_predictions(y_test, predictions)
-    joblib.dump(model, MODEL_DIR / f"{name.lower()}.pkl")
+            ("classifier", clone(classifier)),
+        ])
+
+    metrics = cross_validate_pipeline(_make_pipeline(), x_train, y_train)
+    final_model = _make_pipeline()
+    final_model.fit(x_train, y_train)
+    joblib.dump(final_model, MODEL_DIR / f"{name.lower()}.pkl")
     return metrics
 
 
@@ -261,42 +284,31 @@ def train_word_char_classifier(
     y_train: pd.Series,
     y_test: pd.Series,
 ) -> dict[str, float]:
-    model = Pipeline(
-        steps=[
-            (
-                "features",
-                FeatureUnion(
-                    [
-                        (
-                            "word_tfidf",
-                            TfidfVectorizer(
-                                analyzer="word",
-                                max_features=35000,
-                                ngram_range=(1, 2),
-                                min_df=2,
-                                sublinear_tf=True,
-                            ),
-                        ),
-                        (
-                            "char_tfidf",
-                            TfidfVectorizer(
-                                analyzer="char_wb",
-                                max_features=25000,
-                                ngram_range=(3, 5),
-                                min_df=2,
-                                sublinear_tf=True,
-                            ),
-                        ),
-                    ]
-                ),
-            ),
-            ("classifier", classifier),
-        ]
-    )
-    model.fit(x_train, y_train)
-    predictions = model.predict(x_test)
-    metrics = evaluate_predictions(y_test, predictions)
-    joblib.dump(model, MODEL_DIR / f"{name.lower()}.pkl")
+    def _make_pipeline() -> Pipeline:
+        return Pipeline(steps=[
+            ("features", FeatureUnion([
+                ("word_tfidf", TfidfVectorizer(
+                    analyzer="word",
+                    max_features=35000,
+                    ngram_range=(1, 2),
+                    min_df=2,
+                    sublinear_tf=True,
+                )),
+                ("char_tfidf", TfidfVectorizer(
+                    analyzer="char_wb",
+                    max_features=25000,
+                    ngram_range=(3, 5),
+                    min_df=2,
+                    sublinear_tf=True,
+                )),
+            ])),
+            ("classifier", clone(classifier)),
+        ])
+
+    metrics = cross_validate_pipeline(_make_pipeline(), x_train, y_train)
+    final_model = _make_pipeline()
+    final_model.fit(x_train, y_train)
+    joblib.dump(final_model, MODEL_DIR / f"{name.lower()}.pkl")
     return metrics
 
 
