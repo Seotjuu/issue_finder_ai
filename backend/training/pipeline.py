@@ -366,14 +366,6 @@ def train_tree_models(
             y_train,
             y_test,
         ),
-        "GradientBoosting": train_text_classifier(
-            "GradientBoosting",
-            GradientBoostingClassifier(n_estimators=60, learning_rate=0.08, random_state=RANDOM_STATE),
-            x_train,
-            x_test,
-            y_train,
-            y_test,
-        ),
     }
 
 

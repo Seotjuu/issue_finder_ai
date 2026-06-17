@@ -12,6 +12,7 @@
 /backend/saved_models/*.h5
 /backend/saved_models/mlp.pkl
 /backend/saved_models/complementnb.pkl
+/backend/saved_models/gradientboosting.pkl
 
 # Dataset (issues.json은 배포에 필요하므로 git에 포함)
 

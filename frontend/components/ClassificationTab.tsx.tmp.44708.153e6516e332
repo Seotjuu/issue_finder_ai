@@ -47,6 +47,7 @@ const modelLabels: Record<ModelName, string> = {
   LogisticRegression: "로지스틱 회귀",
   DecisionTree: "결정트리",
   RandomForest: "랜덤 포레스트",
+  GradientBoosting: "그래디언트 부스팅",
   MLP: "다층 퍼셉트론",
   LSTM: "LSTM",
   GRU: "GRU",
@@ -202,7 +203,7 @@ export default function ClassificationTab() {
           </CardHeader>
           <CardContent>
             <div className="grid gap-4 md:grid-cols-3">
-              {[...result.model_metrics].sort((a, b) => b.f1 - a.f1).map((metric) => (
+              {result.model_metrics.map((metric) => (
                 <MetricBar key={metric.model} metric={metric} />
               ))}
             </div>
